@@ -1,0 +1,29 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+
+}
+ul{
+    list-style-type:disc;
+}
+.container-fluid{
+    padding:10px;
+    background-color:#00FFFF	;
+    height: 100%;
+    width:100%;
+}
+.container{
+    margin:30px;
+    padding:20px;
+    font-size: 20px;
+    font-style: italic;
+}
+img{
+    margin:40px;
+    margin-right:60px;
+    height:70px;
+    width:70px;
+}
+hr{
+    width: 70%;
+}

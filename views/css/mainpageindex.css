@@ -1,0 +1,25 @@
+.container-fluid{
+    padding:20px;
+   height: 100%;
+    width: 100%;
+    background-color: #00FFFF;
+}
+
+img{
+    border-radius:500px;
+    height:40%;
+}
+
+
+.profilepic{
+    display:inline;
+    width:20%;
+    border-radius: 20px;
+
+}
+
+.info{
+    padding:20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
