@@ -5,9 +5,22 @@
     background-color: #00FFFF;
 }
 
+body{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,53cbf1+40,05abe0+100;Blue+3D+%23+16 */
+background: #87e0fd; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #87e0fd 0%, #53cbf1 40%, #05abe0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.img-box{
+    margin-top: 20px;
+}
+
 img{
     border-radius:500px;
-    height:40%;
+    max-height:150px;
 }
 
 
@@ -21,5 +34,33 @@ img{
 .info{
     padding:20px;
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 1.5em;
+}
+
+h1{
+    padding:15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+/* The animation code */
+@keyframes swipe {
+    from {
+        opacity: 0;
+        padding-top: 50px;
+    }
+    to {
+        opacity: 1;
+        padding-top: 0px;
+    }
+}
+
+.down {
+    height: 100px;
+    animation-name: swipe;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
 }

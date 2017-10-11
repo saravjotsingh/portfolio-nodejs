@@ -1,13 +1,16 @@
 <html>
 
 <head>
+    {{> imports}}
     <link rel="stylesheet" href="aboutindex.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
     <title>About Us</title>
 </head>
-<div class="container-fluid">
+
+<body>
+
     {{> header}}
-    <h1 style="font-size:50px"><b><i>ABOUT</i></b></h1>
+    <div class="container">
+    <h1 style="font-size:50px" class="text-center"><b><i>ABOUT</i></b></h1>
     <hr noshade>
     <div class="container">
 
@@ -38,5 +41,6 @@
 
 
 </div>
-
+    {{> scripts}}
+</body>
 </html>
